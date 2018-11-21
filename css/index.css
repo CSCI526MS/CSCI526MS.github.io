@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "PressStart2P";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/PressStart2P.ttf") format("truetype");
+}
+html
+{
+	min-height: 400px;
+	background: #000;
+}
+body
+{
+	margin: 0px;
+	min-height: 400px;
+	height: 100%
+}
+#nav
+{
+	width: 100%;
+	height: 10%;
+	/* position: fixed; */
+	z-index: 200;
+	top: 0px;
+	left: 0px;
+	background: white;
+}
+#logo
+{
+	margin-top: 10px;
+	margin-left: 5%;
+	float: left;
+}
+#logo img {
+	height: 80%;
+}
+#show
+{
+	background-color:#000;
+	width: 100%;
+	height: 90%;
+	display: block;
+  	position: relative;
+}
+#shadow
+{
+	/* z-index: 7;
+	background-color: #c4c4c4;
+	opacity: 0.15;
+	width: 100%;
+	height: 90%; */
+	background: rgb(128, 128, 128);
+	height: 100%;
+	width: 100%;
+	opacity: 0.15;
+	top: 0;
+	left: 0;
+	position: absolute;
+	padding: 0;
+
+}
+
+#title{
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	padding: 0;
+}
+
+#title p {
+	color: #fff;
+	position: relative;
+	top: 25%;
+	line-height: 100%;
+	font-size: 65px;
+  	font-family: 'PressStart2P';
+  	text-align: center;
+}
+
+#title a {
+	border: solid 2px #ffffff;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+#title a:hover {
+	background-color: white;
+	border: solid 2px #ffffff;
+	border-radius: 5px;
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.section
+{
+	font-family: "PressStart2P";
+	color: #999;
+}
+
+#introduction p
+{
+	color: #999;
+	text-align: justify;
+	font-family: "PressStart2P";
+	font-size: 14pt;
+	margin-bottom: 40px;
+}
+
+.member
+{
+	font-family: "PressStart2P";
+	/* font-size:  */
+	color: white;
+}
+
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
