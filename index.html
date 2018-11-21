@@ -3,6 +3,16 @@
 	<title> Magic Sword </title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="js/jquery-2.2.2.js"></script>
+    <script>
+            $(window).scroll(function(){
+                if($(window).scrollTop() > 50){
+                    $("#title").fadeOut("fast");
+                } else {
+                    $("#title").fadeIn("fast");
+                }
+            });
+    </script>
 </head>
 <body>
 	<div id = "nav">
@@ -18,14 +28,20 @@
             </video>
             <div id = "shadow"></div>
             <div id = "title">
-                <p>Magic Sword</p>
-                <br><br><br>
-                <p><a href="http://www.youtube.com" target="_blank">Trailer</a></p>
+                <!-- <p>Magic Sword</p> -->
+                <!-- <br><br><br> -->
+                <p><a href="http://www.youtube.com" target="_blank">FULL Trailer</a></p>
             </div>
     </div>
     
     <div id = "introduction" style = "background: black; margin-top: 10%;">
         <div class="container-fluid">
+            <div class = "row">
+                <div class = "col-sm-12" style="color: white; text-align: center; font-size: 30pt; font-family: PressStart2P;">
+                    Magic Sword
+                </div>
+            </div>
+            <br><br><br>
             <div class = "row">
                 <div class = "col-sm-2 hidden-xs">
                 </div>
